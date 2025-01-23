@@ -124,6 +124,13 @@ import InvoiceFive from "../Pages/Application/Ecommerce/Invoices/Invoice-5/Invoi
 import InvoiceSix from "../Pages/Application/Ecommerce/Invoices/Invoice-6/Invoice-6";
 import LetterBox from "../Pages/Application/LetterBox/LetterBox";
 import Default from "../Pages/Dashboard/Default/Default";
+import AddGeneralCourse from "../Pages/AddCourse/AddGenaralCourse/AddGeneralCourse";
+import AddOnlyLesson from "../Pages/AddCourse/AddOnlyLesson/AddOnlyLesson";
+import AddBlog from "../Pages/Blog/AddBlog/AddBlog";
+import EditBlog from "../Pages/Blog/EditBlog/EditBlog";
+import DeleteBlog from "../Pages/Blog/DeleteBlog/DeleteBlog";
+import AddOnlySection from "../Pages/AddCourse/AddOnlySection/AddOnlySection";
+import DeleteCourse from "../Pages/CourseActions/DeleteCourse/DeleteCourse";
 
 const routes = [
   // dashboard
@@ -153,7 +160,37 @@ const routes = [
     path: `/widgets/chart`,
     Component: <Charts />,
   },
-
+  //add course
+  {
+    path: `/kurs/umumiy`,
+    Component: <AddGeneralCourse />,
+  },
+  {
+    path: `/kurs/bo'lim`,
+    Component: <AddOnlySection />,
+  },
+  {
+    path: `/kurs/dars`,
+    Component: <AddOnlyLesson />,
+  },
+  {
+    path: `/kurs/o'chirish`,
+    Component: <DeleteCourse />,
+  },
+  
+  //Blog
+  {
+    path: `/blog`,
+    Component: <AddBlog />,
+  },
+  {
+    path: `/blog/edit`,
+    Component: <EditBlog />,
+  },
+  {
+    path: `/blog/delete`,
+    Component: <DeleteBlog />,
+  },
   // Page Layout
   {
     path: `/page_layout/hide_nav_scroll`,

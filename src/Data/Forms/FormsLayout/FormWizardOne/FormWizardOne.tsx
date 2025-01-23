@@ -1,11 +1,11 @@
 export const numberWizardData = [
     {
-      text: "Fill up your details and proceed next steps.",
+      text: "Iltimos barcha qismlarni to'ldiring",
     },
   ];
   
 
-    export const stepperHorizontalData = ["Basic Info", "Cart Info", "Feedback", "Finish"];
+    export const stepperHorizontalData = ["Kurs haqida", "Bo'lim qo'shish", "Dars qo'shish"];
 
     export const paymentModeName = ["Visa", "MasterCard", "paypal"];
   
