@@ -29,6 +29,33 @@ export const MenuList: MenuItem[] = [
         ],
       },
       {
+        title: "Kurs qo'shish",
+        id: 3000,
+        icon: "widget",
+        type: "sub",
+        lanClass: "lan-6",
+        active: false,
+        children: [
+          { path: `/kurs/umumiy`, title: "Umumiy", type: "link" },
+          { path: `/kurs/dars`, title: "Dars qo'shish", type: "link" },
+          { path: `/kurs/bo'lim`, title: "Bo'lim qo'shish", type: "link" },
+          { path: `/kurs/o'chirish`, title: "Kursni o'chirish", type: "link" },
+        ],
+      },
+      {
+        title: "Maqola qo'shish",
+        id: 3001,
+        icon: "widget",
+        type: "sub",
+        lanClass: "lan-6",
+        active: false,
+        children: [
+          { path: `/blog`, title: "Maqola qo'shish", type: "link" },
+          { path: `/blog/edit`, title: "Maqolani tahrirlash", type: "link" },
+          { path: `/blog/delete`, title: "Maqolani o'chirish", type: "link" },
+        ],
+      },
+      {
         title: "Widgets",
         id: 2,
         icon: "widget",
