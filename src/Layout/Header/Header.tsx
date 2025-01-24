@@ -14,7 +14,7 @@ const Header = () => {
       <CommonBreadcrumb />
       <Col className="header-wrapper m-0">
         <Row>
-          <SearchInput />
+          {/* <SearchInput /> */}
           <HeaderLogoWrapper />
           <RightHeader />
         </Row>

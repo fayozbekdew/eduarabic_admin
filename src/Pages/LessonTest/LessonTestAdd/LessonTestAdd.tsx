@@ -1,9 +1,10 @@
 import React from 'react'
+import AddQuizForm from '../../../Componant/Quiz/AddQuizForm'
 
 function LessonTestAdd() {
   return (
     <div className='page-body'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, nemo?
+      <AddQuizForm/>
     </div>
   )
 }

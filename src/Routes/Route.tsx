@@ -141,7 +141,7 @@ const routes = [
   // dashboard
   {
     path: `/dashboard/default`,
-    Component: <Default />,
+    Component: <EducationDashboard />,
   },
   {
     path: `/dashboard/project`,
@@ -153,7 +153,7 @@ const routes = [
   },
   {
     path: `/dashboard/education`,
-    Component: <EducationDashboard />,
+    Component: <Default />,
   },
 
   // Widgets
