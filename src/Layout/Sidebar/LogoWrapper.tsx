@@ -17,8 +17,10 @@ const LogoWrapper = () => {
         <Link to={`/dashboard/default`}>
           <Image
             className="img-fluid"
-            src={"/src/assets/images/logo/logo_light.png"}
+            src={"/src/assets/images/logo/logo.svg"}
             alt="logo"
+            width={100}
+            height={100}
           />
         </Link>
         <div

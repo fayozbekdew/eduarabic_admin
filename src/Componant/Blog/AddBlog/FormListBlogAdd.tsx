@@ -11,6 +11,7 @@ const FormListBlogAdd = () => {
   const [tag, setTag] = useState<object[]>([]);
   const extraDescRef = useRef(null);
   const tagRef = useRef(null);
+  const blogRef = useRef(null);
   const [formData, setFormData] = useState({
     title: "",
     category: "",
@@ -126,11 +127,13 @@ const FormListBlogAdd = () => {
       .then((data) => {
         if (data.status === "success") {
           toast.success(data.message);
+          blogRef.current?.reset();
         }
       })
   };
   return (
     <Form
+      innerRef={blogRef}
       onSubmit={handleSubmit}
       className="stepper-one g-3 needs-validation custom-input"
       noValidate
@@ -194,7 +197,7 @@ const FormListBlogAdd = () => {
             placeholder={"Maqola tavsifi"}
           />
         </Col>
-        <Col xs="12">
+        <Col className="mt-3 mb-5" xs="12">
           <Label check>{"Maqola afzalliklari"}</Label>
 
           <div
@@ -233,7 +236,7 @@ const FormListBlogAdd = () => {
             </span>
           </div>
         </Col>
-        <Col xs="12">
+        <Col className="mb-5" xs="12">
           <Label check>{"Tag lar"}</Label>
 
           <div
