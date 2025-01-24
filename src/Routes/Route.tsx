@@ -131,6 +131,11 @@ import EditBlog from "../Pages/Blog/EditBlog/EditBlog";
 import DeleteBlog from "../Pages/Blog/DeleteBlog/DeleteBlog";
 import AddOnlySection from "../Pages/AddCourse/AddOnlySection/AddOnlySection";
 import DeleteCourse from "../Pages/CourseActions/DeleteCourse/DeleteCourse";
+import LessonTestAdd from "../Pages/LessonTest/LessonTestAdd/LessonTestAdd";
+import LessonTestEdit from "../Pages/LessonTest/LessonTestEdit/LessonTestEdit";
+import AddTeacher from "../Pages/Teachers/AddTeacher/AddTeacher";
+import EditTeacher from "../Pages/Teachers/EditTeacher/EditTeacher";
+import DeleteTeacher from "../Pages/Teachers/DeleteTeacher/DeleteTeacher";
 
 const routes = [
   // dashboard
@@ -177,7 +182,27 @@ const routes = [
     path: `/kurs/o'chirish`,
     Component: <DeleteCourse />,
   },
-  
+  {
+    path:"/kurs/dars/test/qo'shish",
+    Component:<LessonTestAdd/>
+  },
+  {
+    path:"/kurs/dars/test/sozlash",
+    Component:<LessonTestEdit/>
+  },
+  //Teacher
+  {
+    path:"/teacher",
+    Component:<AddTeacher/>
+  },
+  {
+    path:"/teacher/edit",
+    Component:<EditTeacher/>
+  },
+  {
+    path:"/teacher/delete",
+    Component:<DeleteTeacher/>
+  },
   //Blog
   {
     path: `/blog`,

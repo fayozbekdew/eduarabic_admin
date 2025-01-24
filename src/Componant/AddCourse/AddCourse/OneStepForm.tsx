@@ -147,6 +147,9 @@ const OneStepForm: React.FC = ({ setLevel }: any) => {
     FormDataSend.append("level", courseLevel);
     FormDataSend.append("author", selectedAuthor);
     FormDataSend.append("course_descs", JSON.stringify(extraDesc));
+    //   extraDesc.forEach(desc => {
+    //     FormDataSend.append("course_descs", JSON.stringify(desc));
+    // });
     FormDataSend.append(
       "course_banner_video_id",
       formData.course_banner_video_id
@@ -185,6 +188,7 @@ const OneStepForm: React.FC = ({ setLevel }: any) => {
   console.log(extraDesc);
   return (
     <Form
+      
       id="one"
       onSubmit={handleSubmit}
       className="stepper-one g-3 needs-validation custom-input"
