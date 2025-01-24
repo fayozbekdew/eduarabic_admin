@@ -79,16 +79,16 @@ export const profilesMessage: profilesMessageType[] = [
     icon: "User",
     link: `/chat/private_chat  `,
   },
-  {
-    name: "Inbox",
-    icon: "Mail",
-    link: `/email/letter_box`,
-  },
-  {
-    name: "Taskboard",
-    icon: "FileText",
-    link: `/app/task`,
-  },
+  // {
+  //   name: "Inbox",
+  //   icon: "Mail",
+  //   link: `/email/letter_box`,
+  // },
+  // {
+  //   name: "Taskboard",
+  //   icon: "FileText",
+  //   link: `/app/task`,
+  // },
   {
     name: "Settings",
     icon: "Settings",

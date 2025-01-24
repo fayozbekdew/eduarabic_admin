@@ -239,3 +239,4 @@ const AddQuizForm: React.FC = ({ setLevel }: any) => {
 };
 
 export default AddQuizForm;
+

@@ -29,8 +29,8 @@ const Login = () => {
             <div>
               <div>
                 <Link className="logo text-center" to={Href}>
-                  <Image className="img-fluid for-light" src={`/assets/images/logo/logo.png`} alt="looginpage" />
-                  <Image className="img-fluid for-dark" src={`/assets/images/logo/logo_dark.png`} alt="looginpage" />
+                  <Image className="img-fluid for-light" src={`/assets/images/logo/logo.svg`} alt="looginpage" />
+                  <Image className="img-fluid for-dark" src={`/assets/images/logo/logo.svg`} alt="looginpage" />
                 </Link>
               </div>
               <div className="login-main">

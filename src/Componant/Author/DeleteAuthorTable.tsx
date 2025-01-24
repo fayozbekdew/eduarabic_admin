@@ -122,3 +122,4 @@ const DeleteAuthorTable = () => {
 };
 
 export default DeleteAuthorTable;
+

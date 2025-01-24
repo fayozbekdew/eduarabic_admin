@@ -69,7 +69,7 @@ const AddAuthorForm: React.FC = () => {
       }));
     }
   };
-  async function handleSubmit(data: any) {
+  async function handleSubmit() {
     let form = new FormData();
     form.append("name", formData.name);
     form.append("description", formData.description);
