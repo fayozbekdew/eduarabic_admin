@@ -69,7 +69,7 @@ const AddAuthorForm: React.FC = () => {
       }));
     }
   };
-  async function handleSubmit(data: any) {
+  async function handleSubmit() {
     let form = new FormData();
     form.append("name", formData.name);
     form.append("description", formData.description);
@@ -77,7 +77,7 @@ const AddAuthorForm: React.FC = () => {
     form.append("avatar", formData.avatar);
     form.append("socials", JSON.stringify(socials));
     try {
-      const response = await fetch("http://api.eduarabic.uz/courses/author/", {
+      const response = await fetch("https://api.eduarabic.uz/courses/author/", {
         method: "POST",
         body: form,
       });

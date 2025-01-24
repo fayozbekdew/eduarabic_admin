@@ -49,7 +49,7 @@ const Layout = () => {
           <div className="page-body-wrapper">
             <Sidebar />
             <Outlet />
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </div>
       {/* <ThemeCustomizer /> */}

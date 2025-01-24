@@ -9,8 +9,8 @@ const InvoiceTwoHeader = () => {
         <tbody>
           <tr>
             <td style={{ minWidth: 347, width: "30%" }}>
-              <Image className="img-fluid for-light" src={"/src/assets/images/logo/logo.png"} alt="logo" />
-              <Image className="img-fluid for-dark" src={"/src/assets/images/logo/logo_light.png"} alt="logo"/>
+              <Image className="img-fluid for-light" src={"/src/assets/images/logo/logo.svg"} alt="logo" />
+              <Image className="img-fluid for-dark" src={"/src/assets/images/logo/logo.svg"} alt="logo"/>
               <address style={{ opacity: "0.8", width: "80%", marginTop: 10, fontStyle: "normal"}}>
                 <span style={{ fontSize: 16, lineHeight: "1.5", fontWeight: 500 }} >
                   1982 Harvest Lane New York, NY12210 United State

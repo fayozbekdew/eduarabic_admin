@@ -6,32 +6,19 @@ export const MenuList: MenuItem[] = [
     lanClass: "lan-1",
     Items: [
       {
-        title: "Dashboards",
+        title: "Statistika",
         id: 1,
-        icon: "home",
-        type: "sub",
+        icon: "charts",
         lanClass: "lan-3",
-        children: [
-          {
-            path: `/dashboard/default`,
-            title: "Default",
-            type: "link",
-            lanClass: "lan-4",
-          },
-          {
-            path: `/dashboard/project`,
-            title: "Project",
-            type: "link",
-            lanClass: "lan-5",
-          },
-          { path: `/dashboard/ecommerce`, title: "Ecommerce", type: "link" },
-          { path: `/dashboard/education`, title: "Education", type: "link" },
-        ],
+        type:"link",
+        active: false,
+        path: "/dashboard",
+        
       },
       {
         title: "Kurs qo'shish",
         id: 3000,
-        icon: "widget",
+        icon: "learning",
         type: "sub",
         lanClass: "lan-6",
         active: false,
@@ -63,30 +50,30 @@ export const MenuList: MenuItem[] = [
       {
         title: "Maqola qo'shish",
         id: 3001,
-        icon: "widget",
+        icon: "builders",
         type: "sub",
         lanClass: "lan-6",
         active: false,
         children: [
           { path: `/blog`, title: "Maqola qo'shish", type: "link" },
-          { path: `/blog/edit`, title: "Maqolani tahrirlash", type: "link" },
+          // { path: `/blog/edit`, title: "Maqolani tahrirlash", type: "link" },
           { path: `/blog/delete`, title: "Maqolani o'chirish", type: "link" },
         ],
       },
       {
         title: "O'qituvchilar",
         id: 3002,
-        icon: "widget",
+        icon: "user",
         type: "sub",
         lanClass: "lan-6",
         active: false,
         children: [
           { path: `/teacher`, title: "O'qituvchi qo'shish", type: "link" },
-          {
-            path: `/teacher/edit`,
-            title: "O'qituvchini tahrirlash",
-            type: "link",
-          },
+          // {
+          //   path: `/teacher/edit`,
+          //   title: "O'qituvchini tahrirlash",
+          //   type: "link",
+          // },
           {
             path: `/teacher/delete`,
             title: "O'qituvchini o'chirish",
@@ -103,7 +90,7 @@ export const MenuList: MenuItem[] = [
       {
         title: "O'quchilar",
         id: 3,
-        icon: "project",
+        icon: "user",
         type: "sub",
         active: false,
         children: [
@@ -117,17 +104,17 @@ export const MenuList: MenuItem[] = [
             type: "link",
             title: "O'quvchi o'chirish",
           },
-          {
-            path: `/project/create_new`,
-            type: "link",
-            title: "O'quvchi tahrirlash",
-          },
+          // {
+          //   path: `/project/create_new`,
+          //   type: "link",
+          //   title: "O'quvchi tahrirlash",
+          // },
         ],
       },
       {
         title: "Kursga biriktirish",
         id: 6,
-        icon: "ecommerce",
+        icon: "layout",
         type: "sub",
         active: false,
         children: [
@@ -160,7 +147,7 @@ export const MenuList: MenuItem[] = [
       },
       {
         title: "Sms habarnoma",
-        icon: "ecommerce",
+        icon: "email",
         id: 6,
         type: "sub",
         active: false,
@@ -172,20 +159,20 @@ export const MenuList: MenuItem[] = [
           },
         ],
       },
-      {
-        title: "support",
-        icon: "",
-        id: 6,
-        type: "sub",
-        active: false,
-        children: [
-          {
-            // path: `/ecommerce/add_product`,
-            title: "Sms habarnoma",
-            type: "link",
-          },
-        ],
-      },
+      // {
+      //   title: "support",
+      //   icon: "",
+      //   id: 6,
+      //   type: "sub",
+      //   active: false,
+      //   children: [
+      //     {
+      //       // path: `/ecommerce/add_product`,
+      //       title: "Sms habarnoma",
+      //       type: "link",
+      //     },
+      //   ],
+      // },
     ],
   },
 ];

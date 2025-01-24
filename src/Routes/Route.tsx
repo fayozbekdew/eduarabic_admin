@@ -140,8 +140,8 @@ import DeleteTeacher from "../Pages/Teachers/DeleteTeacher/DeleteTeacher";
 const routes = [
   // dashboard
   {
-    path: `/dashboard/default`,
-    Component: <Default />,
+    path: `/dashboard`,
+    Component: <EducationDashboard />,
   },
   {
     path: `/dashboard/project`,
@@ -153,7 +153,7 @@ const routes = [
   },
   {
     path: `/dashboard/education`,
-    Component: <EducationDashboard />,
+    Component: <Default />,
   },
 
   // Widgets

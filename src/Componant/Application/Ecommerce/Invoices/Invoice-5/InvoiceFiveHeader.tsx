@@ -10,8 +10,8 @@ const InvoiceFiveHeader = () => {
       <tbody>
         <tr style={{ padding: "28px 0 5px", display: "flex", justifyContent: "space-between", alignItems: "center" }} >
           <td>
-            <Image className="img-fluid for-light" src={"/src/assets/images/logo/logo.png"} alt="logo" />
-            <Image className="img-fluid for-dark" src={"/src/assets/images/logo/logo_light.png"} alt="logo"/>
+            <Image className="img-fluid for-light" src={"/src/assets/images/logo/logo.svg"} alt="logo" />
+            <Image className="img-fluid for-dark" src={"/src/assets/images/logo/logo.svg"} alt="logo"/>
           </td>
           <td>
             <InvoiceRightSide />
