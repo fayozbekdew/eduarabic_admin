@@ -140,7 +140,7 @@ import DeleteTeacher from "../Pages/Teachers/DeleteTeacher/DeleteTeacher";
 const routes = [
   // dashboard
   {
-    path: `/dashboard`,
+    path: `/dashboard/default`,
     Component: <EducationDashboard />,
   },
   {

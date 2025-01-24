@@ -42,7 +42,7 @@ const Sidebar = () => {
                 <Link to={`/dashboard/defaULt`}>
                   <Image
                     className="img-fluid"
-                    src={"/src/assets/images/logo/logo-icon.png"}
+                    src={"/src/assets/images/logo/logo.svg"}
                     alt="logo"
                   />
                 </Link>
