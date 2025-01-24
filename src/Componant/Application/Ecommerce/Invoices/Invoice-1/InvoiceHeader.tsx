@@ -8,8 +8,8 @@ const InvoiceHeader = () => {
         <tbody>
           <tr>
             <td>
-              <Image className="img-fluid for-light" src={"/src/assets/images/logo/logo.png"} alt="logo" />
-              <Image className="img-fluid for-dark" src={"/src/assets/images/logo/logo_light.png"} alt="logo" />
+              <Image className="img-fluid for-light" src={"/src/assets/images/logo/logo.svg"} alt="logo" />
+              <Image className="img-fluid for-dark" src={"/src/assets/images/logo/logo.svg"} alt="logo" />
               <span style={{ opacity: "0.8", display: "block", marginTop: 10 }} >
                 202-555-0258
               </span>
